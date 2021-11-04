@@ -7,7 +7,7 @@ This is proposing the structure and use of the database that will be used by The
 - Tables
     - Paper
         - id - 32B long (compatible with Ethereum and dType)
-        - ext_id - string (eg DOI: 10.1109/5.771073)
+        - ext_id - string (eg DOI:10.1109/5.771073 or arXiv:2111.01795)
         - authors_contact - id of contact (optional)
         - abstract - long text
         - problem - the question this paper answers
